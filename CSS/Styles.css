@@ -1,3 +1,15 @@
 body{
     background-color: rgb(200, 0, 250);
 }
+h1{
+    background-color: black;
+    color: rgb(0, 255, 213);
+}
+
+h2{
+    color: orange;
+}
+
+h3{
+    color: brown;
+}
