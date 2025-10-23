@@ -1,15 +1,24 @@
+:root{
+    --blancio:white;
+    --oscuro:black;
+    --primario:#18667e;
+    --secundario:rgb(72, 255, 0) ;
+    --gris:grey;
+    --tamaño-fuente:16px;
+}
+
 html{
     font-size: 62.5%;
 }
 
 body{
     background-color: rgb(200, 0, 250);
-    font-size: 16px;
+    font-size: var(--tamaño-fuente);
     font-family:'Montserrat' ;
 }
 
 .contenedor{
-    width: 900px;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -18,7 +27,7 @@ body{
 }
 
 .bg-secundario{
-    background-color: green;
+    background-color: var(--primario);
 }
 
 h1{
@@ -38,16 +47,30 @@ h3{
 }
 
 .title{
-    color: yellow;
+    color:var(--secundario);
     text-align: center;
     font-size: 3.8rem
 }
 
 .title span{
-    color: green;
+    color:var(--primario);
     font-size: 2rem;
 }
 
 nav{
-    background-color:green ;
+    background-color:var(--primario) ;
+}
+
+.navegacion-principal a{
+    color: var(--blancio);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 10px;
+    background-color: pink;
+}
+
+.navegacion-principal a:hover{
+    color: var(--oscuro);
+    background-color: var(--secundario);
 }
