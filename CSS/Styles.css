@@ -59,7 +59,7 @@ h3{
 p{
     font-size: 2rem;
 }
-.navegacion-principal{
+.Navegacion-principal{
     display: flex;
     justify-content: space-around;
     background-color:var(--primario) ;
@@ -71,7 +71,7 @@ p{
     }
 }
 
-.navegacion-principal a{
+.Navegacion-principal a{
     color: var(--blancio);
     text-decoration: none;
     text-align: center;
@@ -81,7 +81,7 @@ p{
     background-color: pink;
 }
 
-.navegacion-principal a:hover{
+.Navegacion-principal a:hover{
     color: var(--oscuro);
     background-color: var(--secundario);
 }
