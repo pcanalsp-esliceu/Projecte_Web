@@ -65,6 +65,12 @@ p{
     background-color:var(--primario) ;
 }
 
+@media (min-widht: 400px) {
+    .navegacion-principal{
+        flex-direction: row;
+    }
+}
+
 .navegacion-principal a{
     color: var(--blancio);
     text-decoration: none;
