@@ -56,17 +56,22 @@ h3{
     color:var(--primario);
     font-size: 2rem;
 }
-
-nav{
+p{
+    font-size: 2rem;
+}
+.navegacion-principal{
+    display: flex;
+    justify-content: space-around;
     background-color:var(--primario) ;
 }
 
 .navegacion-principal a{
     color: var(--blancio);
     text-decoration: none;
+    text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    padding-top: 10px;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: pink;
 }
 
