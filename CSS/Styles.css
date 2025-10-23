@@ -85,3 +85,14 @@ p{
     color: var(--oscuro);
     background-color: var(--secundario);
 }
+
+.hero{
+    background-image: url(../Imatges/puede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65rem;
+}
+
+.contenido-hero{
+    color: white;
+}
