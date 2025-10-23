@@ -1,8 +1,8 @@
 :root{
     --blancio:white;
     --oscuro:black;
-    --primario:#18667e;
-    --secundario:rgb(72, 255, 0) ;
+    --primario:#187e31;
+    --secundario:rgb(0, 247, 255) ;
     --gris:grey;
     --tamaño-fuente:16px;
 }
