@@ -108,6 +108,12 @@ p{
     text-align: center;
 }
 
+@media (min-wdth: 480px ) {
+    .boton{
+        width: auto;
+    }
+}
+
 .contenido-hero{
     color: var(--blancio);
     background-color: rgba(0,0,0,0.6);
