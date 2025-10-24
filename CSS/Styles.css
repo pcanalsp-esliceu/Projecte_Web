@@ -95,6 +95,20 @@ p{
     color: white;
     padding: 1rem 3rem;
     margin-top: 1rem;
+    font-size: 4rem;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+.boton2{
+    background-color: var(--primario);
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
     font-size: 2rem;
     text-decoration:none;
     text-transform: uppercase;
@@ -102,10 +116,14 @@ p{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-wdth: 480px ) {
     .boton{
+        width: auto;
+    }
+    .boton2{
         width: auto;
     }
 }
