@@ -13,5 +13,6 @@ body{
 }
 
 #showcase{
-    background-image: ;
+    background-image:url(../Imatges/duro.jpg);
+    height: 100vh;
 }
