@@ -45,7 +45,8 @@ h1,h2,h3{
 .title{
     color:var(--secundario);
     text-align: center;
-    font-size: 3.8rem
+    font-size: 3.8rem;
+    padding: 1rem ;   
 }
 
 .title span{
