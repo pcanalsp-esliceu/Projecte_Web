@@ -10,20 +10,26 @@ body{
 .box {
     display: flex;
     width: 70%;
-    background-color: rgb(34, 202, 42);
     margin: 0 auto;
     justify-content: space-between;
 }
 
 .box div{
-    background-color: brown;
+    background-color: rgb(42, 165, 79);
     width: 15%;
     text-align: center;
     border-radius: 12px;
     padding: 10px 0;
+    line-height: 25px;
+    
 }
 
 .box div:hover{
     background-color: green;
     cursor: pointer;
+}
+
+.si{
+    background-color: rgb(138, 20, 79);
+    padding: 3%;
 }
