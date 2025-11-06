@@ -1,23 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: blueviolet;
 }
 
 .box {
     display: flex;
-    text-align: center;
+    width: 70%;
+    background-color: rgb(34, 202, 42);
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
-.one {
-    flex: 1 1 auto;
+.box div{
+    background-color: brown;
+    width: 15%;
     text-align: center;
+    border-radius: 12px;
+    padding: 10px 0;
 }
 
-.two {
-    flex: 1 1 auto;
-    text-align: center;
-}
-
-.three {
-    flex: 1 1 auto;
-    text-align: center;
+.box div:hover{
+    background-color: green;
+    cursor: pointer;
 }
