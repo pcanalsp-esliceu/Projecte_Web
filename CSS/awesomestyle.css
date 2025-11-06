@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+}
+
+.box {
+    display: flex;
+    text-align: center;
+}
+
+.one {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.two {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.three {
+    flex: 1 1 auto;
+    text-align: center;
+}
